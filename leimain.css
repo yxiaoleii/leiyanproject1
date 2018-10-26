@@ -1,0 +1,187 @@
+/*
+ * Write your CSS in this file.
+ * Some styles have been pre-defined for your convenience.
+ */
+
+/*
+ * This line asks Google Fonts for the font "Lato." In class we will discuss
+ * how to use Google Fonts via the HTML <link> tag, which is the preferred
+ * method. But for this project, just accept that the following line does
+ * more or less the same thing.
+ */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/* This line sets all text in <body></body> to have "Lato" font */
+body { font-family: 'Lato', sans-serif; }
+
+/* This line resets all font margins to 0 for your convenience */
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+/* This line resets the <body>'s margins to 0, and sets the line-height to 1.5 */
+body { margin: 0; line-height: 1.5 }
+
+/*
+ * Put your CSS below this comment.
+ */
+/*-----------Top image stuff-----------*/
+
+.Topimage {
+  background-image: url("background1.jpg");
+  height: 670px;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+section.one {
+  width: 100%;
+  height: 100vh; /*view height*/
+  display: flex;
+  align-items: center;
+}
+
+#Header1 {
+font-size: 120px;
+font-style: Bold;
+color: white;
+text-align: center;
+padding-top: 220px;
+
+}
+
+#Header2 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#Menuheader {
+  font-size: 30px;
+  font-style: Bold;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+
+}
+#Header4 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: lighter;
+  color: black;
+}
+
+
+/*-----------About us-----------*/
+.containerone {
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom:200px;
+}
+section .white {
+  background-color: white;
+  color: black;
+}
+
+/*--------food pics-------------*/
+.containertwo{
+    width: 100%;
+    height: 300px; /*view height*/
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-color: #FFF8F2;
+  }
+/*
+i don't understand flex boxes???? and images??? heck
+*/
+section.food {
+    width: auto;
+    height: 200px;
+    border: 25px ;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+/* why my radius thing not workin (ask google)*/
+
+.padded {
+  padding-top: 10px;
+  padding-bottom: 80px;
+  border-radius: 8px;
+}
+.image {
+  padding: 25px;
+  justify-content: center;
+  border-radius: : 10px;
+
+}
+
+/*-------------MENU--------------*/
+
+.containerthree {
+  width: 600px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom:200px;
+  padding-top: 200px;
+}
+
+.head {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 1px solid #A9A9A9;
+  padding-bottom: 10px;
+}
+
+.item {
+  font-size: 20px;
+  color: black;
+  border-bottom: 1px solid #A9A9A9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.price {
+  float: right;
+}
+
+.x {
+  padding-top: 40px;
+}
+
+/*-------------Footer-------------*/
+
+.containerfour{
+    width: 100%;
+    height: 300px; /*view height*/
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-color: #FFF8F2;
+}
+
+.another{
+  width: 350px;
+  max-width: 90%;
+  margin: 0 auto;
+
+}
+
+.Bullets {
+ text-align: left;
+  list-style-position: inside;
+  font-size: 20px;
+}
+.map {
+  text-align: center;
+}
